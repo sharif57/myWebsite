@@ -48,7 +48,7 @@ const Banner = () => {
                         </div>
                     </div>
                 </div>
-                <img className="h-[500px]" src="https://i.ibb.co/WGdWyx1/20240502162307521-jpeg-removebg-preview.png" alt="Mary Hardy" />
+                <img className="h-[600px] w-full" src="https://i.ibb.co/WGdWyx1/20240502162307521-jpeg-removebg-preview.png" alt="Mary Hardy" />
             </section>
             
         </div>

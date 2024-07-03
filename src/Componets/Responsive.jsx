@@ -5,7 +5,7 @@ import { MdComputer } from "react-icons/md";
 const Responsive = () => {
     return (
         <div className="container">
-            <h1 className="text-7xl font-bold text-center mt-10">Full Responsive Design</h1>
+            <h1 className="lg:text-7xl font-bold text-center mt-10">Full Responsive Design</h1>
             <div className="mt-16 w-1/2 mx-auto">
                 <img src="https://up2client.com/envato/biogi/assets/images/lapi-img2.png" alt="" />
             </div>

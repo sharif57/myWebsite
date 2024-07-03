@@ -4,15 +4,15 @@ const Site = () => {
         <div>
             <div>
                 <div>
-                    <h1 className="text-5xl w-1/2 mx-auto text-center font-bold mt-10">CREATE A AMAZING SITE TODAY!</h1>
+                    <h1 className="lg:text-5xl lg:w-1/2 mx-auto text-center font-bold mt-10">CREATE A AMAZING SITE TODAY!</h1>
                 </div>
                 <div className="text-center flex flex-col justify-center mt-10 items-center">
-                    <div className="text-center flex gap-5">
+                    <div className="text-center lg:flex gap-5">
                         <li className="text-xl font-bold">Responsive Design</li>
                         <li className="text-xl font-bold">Fast Performance</li>
                         <li className="text-xl font-bold">Standard Code</li>
                     </div>
-                    <div className="text-center flex gap-5 mt-5">
+                    <div className="text-center lg:flex gap-5 mt-5">
                         <li className="text-xl font-bold">Easy To Customize</li>
                         <li className="text-xl font-bold">Reatina Ready</li>
                     </div>

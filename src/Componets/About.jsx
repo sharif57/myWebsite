@@ -17,7 +17,7 @@ const About = () => {
                     <h1 className="text-2xl font-semibold mb-4">Name : Sharif Mahamud</h1>
                     <h1 className="text-2xl font-semibold mb-4">Nationality : Bangladeshi</h1>
                     <h1 className="text-2xl font-semibold mb-4">Phone : 01611198984</h1>
-                    <h1 className="text-2xl font-semibold mb-4">Email : sharifmahamud577951@gmail.com</h1>
+                    {/* <h1 className="text-2xl font-semibold mb-4">Email : sharifmahamud577951@gmail.com</h1> */}
                     <h1 className="text-2xl font-semibold mb-4">Gender : Male</h1>
                     <h1 className="text-2xl font-semibold mb-4">Age : 22</h1>
                     <h1 className="text-2xl font-semibold mb-4">Marital : Single</h1>
@@ -94,7 +94,7 @@ const About = () => {
                 </div>
                 <div>
                     <h1 className="text-5xl font-bold mt-8 mb-9">Development Skills. <hr /></h1>
-                    <div className="flex justify-between">
+                    <div className="lg:flex justify-between">
                         <img
                             align="left"
                             alt="Visual Studio Code"
