@@ -1,8 +1,8 @@
 
 const About = () => {
     return (
-        <div className="p-4">
-            <div className="">
+        <div  className="p-4">
+            <div data-aos="zoom-out-down" data-aos-delay="500" className="">
                 <h1 className="text-5xl pt-24 font-bold">About Me. <hr /></h1>
                 <p className="mt-8 ">Hello! I'm Sharif Mahamud, a dedicated web developer with a passion for crafting clean and efficient code. With a background in [mention your education or relevant experience], I specialize in front-end development using HTML, CSS, and JavaScript, with proficiency in frameworks like React.js. I am also skilled in back-end development using Node.js and Express, and I have experience working with databases such as MongoDB.
 
@@ -12,7 +12,7 @@ const About = () => {
 
                     Let's connect and discuss how we can work together to achieve your project goals!</p>
             </div>
-            <div className="mt-10  ">
+            <div data-aos="fade-down" className="mt-10  ">
                 <div>
                     <h1 className="text-2xl font-semibold mb-4">Name : Sharif Mahamud</h1>
                     <h1 className="text-2xl font-semibold mb-4">Nationality : Bangladeshi</h1>
@@ -25,7 +25,7 @@ const About = () => {
                 </div>
             </div>
 
-            <div>
+            <div data-aos="zoom-out-down" data-aos-delay="100">
                 <h1 className="text-5xl mt-8 font-bold mb-6">Education. <hr /></h1>
                 <div className="space-y-4">
                     <details
@@ -95,14 +95,16 @@ const About = () => {
                 </div>
                 <div>
                     <h1 className="lg:text-5xl text-2xl font-bold mt-8 mb-9">Development Skills. <hr /></h1>
-                    <div className="lg:flex justify-between">
+                    <div data-aos="flip-left"
+                        data-aos-easing="ease-out-cubic"
+                        data-aos-duration="2000" className="lg:flex justify-between">
                         <img
                             align="left"
                             alt="Visual Studio Code"
                             src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg"
                             className=" w-10 sm:w-20 md:w-30 lg:w-2xdc0 xl:w-70" // Tailwind CSS classes for responsive width
                         />
-                        
+
 
                         <img
                             align="left"
@@ -131,38 +133,38 @@ const About = () => {
                             alt="JavaScript"
                             // width="90px"
                             src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
-                            className=" w-10 sm:w-20 md:w-30 lg:w-2xdc0 xl:w-70"                        />
+                            className=" w-10 sm:w-20 md:w-30 lg:w-2xdc0 xl:w-70" />
                         <img
                             align="left"
                             alt="React"
                             // width="90px"
                             src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
-                            className=" w-10 sm:w-20 md:w-30 lg:w-2xdc0 xl:w-70"                        />
+                            className=" w-10 sm:w-20 md:w-30 lg:w-2xdc0 xl:w-70" />
                         <img
                             align="left"
                             alt="Node.js"
                             // width="90px"
                             src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg"
-                            className=" w-10 sm:w-20 md:w-30 lg:w-2xdc0 xl:w-70"                        />
+                            className=" w-10 sm:w-20 md:w-30 lg:w-2xdc0 xl:w-70" />
                         <img
                             align="left"
                             alt="MongoDB"
                             // width="90px"
                             src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg"
-                            className=" w-10 sm:w-20 md:w-30 lg:w-2xdc0 xl:w-70"                        />
+                            className=" w-10 sm:w-20 md:w-30 lg:w-2xdc0 xl:w-70" />
                         <img
                             align="left"
                             alt="Git"
                             // width="90px"
                             src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg"
-                            className=" w-10 sm:w-20 md:w-30 lg:w-2xdc0 xl:w-70"                        />
+                            className=" w-10 sm:w-20 md:w-30 lg:w-2xdc0 xl:w-70" />
 
                         <img
                             align="left"
                             alt="GitHub"
                             // width="90px"
                             src="https://user-images.githubusercontent.com/3369400/139448065-39a229ba-4b06-434b-bc67-616e2ed80c8f.png"
-                            className=" w-10 sm:w-20 md:w-30 lg:w-2xdc0 xl:w-70"                        />
+                            className=" w-10 sm:w-20 md:w-30 lg:w-2xdc0 xl:w-70" />
                     </div>
 
                 </div>

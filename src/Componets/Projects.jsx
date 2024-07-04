@@ -1,20 +1,26 @@
 import { FaGithub, FaLink } from "react-icons/fa";
 import { RiTailwindCssFill } from "react-icons/ri";
 
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
+AOS.init()
 
 const Projects = () => {
     return (
         <div>
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-9 mt-14">
-                <div className="overflow-hidden lg:p-0 p-4 rounded-lg border border-gray-100 bg-white shadow-xl">
+            <div  data-aos="fade-down"
+                data-aos-easing="linear"
+                data-aos-duration="1500" className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-9 mt-14">
+                <div
+                    className="overflow-hidden lg:p-0 p-4 rounded-lg border border-gray-100 bg-white shadow-xl hover:shadow-2xl">
                     <img
                         alt="Project"
                         src="https://i.ibb.co/VShQYs0/Screenshot-2024-07-03-122142.png0"
                         className="h-56 w-full object-cover"
                     />
 
-                    <div className="p-4 sm:p-6">
+                    <div className="p-4 sm:p-6 ">
                         <a href="#">
                             <h3 className="text-2xl font-medium text-gray-900">
                                 Social Media Forum
@@ -92,7 +98,7 @@ const Projects = () => {
                                         style={{ paddingRight: '10px' }} // Correct usage of style prop with an object
                                     />
 
-                                    
+
                                 </div>
                             </div>
                         </div>
@@ -100,7 +106,7 @@ const Projects = () => {
 
                     </div>
                 </div>
-                <div href="https://volunteer-e0eac.web.app/" className="overflow-hidden lg:p-0 p-4 rounded-lg border border-gray-100 bg-white shadow-xl">
+                <div className="overflow-hidden lg:p-0 p-4 rounded-lg border border-gray-100 bg-white shadow-xl hover:shadow-2xl">
                     <img
                         alt="Project"
                         src="https://i.ibb.co/jHZ5sJN/Screenshot-2024-07-03-122708.png"
@@ -187,14 +193,14 @@ const Projects = () => {
                                         style={{ paddingRight: '10px' }} // Correct usage of style prop with an object
                                     />
 
-                                    
+
                                 </div>
                             </div>
                         </div>
 
                     </div>
                 </div>
-                <div className="overflow-hidden lg:p-0 p-4 rounded-lg border border-gray-100 bg-white shadow-xl">
+                <div className="overflow-hidden lg:p-0 p-4 rounded-lg border border-gray-100 bg-white shadow-xl hover:shadow-2xl">
                     <img
                         alt="Project"
                         src="https://i.ibb.co/DfSZKCJ/Screenshot-2024-07-03-123402.png"
@@ -280,7 +286,7 @@ const Projects = () => {
                                         style={{ paddingRight: '10px' }} // Correct usage of style prop with an object
                                     />
 
-                                    
+
                                 </div>
                             </div>
                         </div>
