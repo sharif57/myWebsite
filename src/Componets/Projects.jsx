@@ -1,4 +1,5 @@
 import { FaGithub, FaLink } from "react-icons/fa";
+import { RiTailwindCssFill } from "react-icons/ri";
 
 
 
@@ -6,7 +7,7 @@ const Projects = () => {
     return (
         <div>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-9 mt-14">
-                <div className="overflow-hidden rounded-lg border border-gray-100 bg-white shadow-sm">
+                <div className="overflow-hidden lg:p-0 p-4 rounded-lg border border-gray-100 bg-white shadow-xl">
                     <img
                         alt="Project"
                         src="https://i.ibb.co/VShQYs0/Screenshot-2024-07-03-122142.png0"
@@ -54,6 +55,7 @@ const Projects = () => {
                                         src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"
                                         style={{ paddingRight: '10px' }} // Correct usage of style prop with an object
                                     />
+                                    <RiTailwindCssFill className="size-10" />
                                     <img
                                         align="left"
                                         alt="JavaScript"
@@ -90,13 +92,7 @@ const Projects = () => {
                                         style={{ paddingRight: '10px' }} // Correct usage of style prop with an object
                                     />
 
-                                    <img
-                                        align="left"
-                                        alt="GitHub"
-                                        width="40px"
-                                        src="https://user-images.githubusercontent.com/3369400/139448065-39a229ba-4b06-434b-bc67-616e2ed80c8f.png"
-                                        style={{ paddingRight: '10px' }} // Correct usage of style prop with an object
-                                    />
+                                    
                                 </div>
                             </div>
                         </div>
@@ -104,7 +100,7 @@ const Projects = () => {
 
                     </div>
                 </div>
-                <a href="https://volunteer-e0eac.web.app/" className="overflow-hidden rounded-lg border border-gray-100 bg-white shadow-sm">
+                <div href="https://volunteer-e0eac.web.app/" className="overflow-hidden lg:p-0 p-4 rounded-lg border border-gray-100 bg-white shadow-xl">
                     <img
                         alt="Project"
                         src="https://i.ibb.co/jHZ5sJN/Screenshot-2024-07-03-122708.png"
@@ -154,6 +150,7 @@ const Projects = () => {
                                         src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"
                                         style={{ paddingRight: '10px' }} // Correct usage of style prop with an object
                                     />
+                                    <RiTailwindCssFill className="size-10" />
                                     <img
                                         align="left"
                                         alt="JavaScript"
@@ -190,20 +187,14 @@ const Projects = () => {
                                         style={{ paddingRight: '10px' }} // Correct usage of style prop with an object
                                     />
 
-                                    <img
-                                        align="left"
-                                        alt="GitHub"
-                                        width="40px"
-                                        src="https://user-images.githubusercontent.com/3369400/139448065-39a229ba-4b06-434b-bc67-616e2ed80c8f.png"
-                                        style={{ paddingRight: '10px' }} // Correct usage of style prop with an object
-                                    />
+                                    
                                 </div>
                             </div>
                         </div>
 
                     </div>
-                </a>
-                <div  className="overflow-hidden rounded-lg border border-gray-100 bg-white shadow-sm">
+                </div>
+                <div className="overflow-hidden lg:p-0 p-4 rounded-lg border border-gray-100 bg-white shadow-xl">
                     <img
                         alt="Project"
                         src="https://i.ibb.co/DfSZKCJ/Screenshot-2024-07-03-123402.png"
@@ -252,6 +243,7 @@ const Projects = () => {
                                         src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"
                                         style={{ paddingRight: '10px' }} // Correct usage of style prop with an object
                                     />
+                                    <RiTailwindCssFill className="size-10" />
                                     <img
                                         align="left"
                                         alt="JavaScript"
@@ -288,13 +280,7 @@ const Projects = () => {
                                         style={{ paddingRight: '10px' }} // Correct usage of style prop with an object
                                     />
 
-                                    <img
-                                        align="left"
-                                        alt="GitHub"
-                                        width="40px"
-                                        src="https://user-images.githubusercontent.com/3369400/139448065-39a229ba-4b06-434b-bc67-616e2ed80c8f.png"
-                                        style={{ paddingRight: '10px' }} // Correct usage of style prop with an object
-                                    />
+                                    
                                 </div>
                             </div>
                         </div>

@@ -2,11 +2,11 @@ import { Link, NavLink } from "react-router-dom";
 
 const Navber = () => {
     const navLinks = <>
-        <NavLink to={'/about'}><li><a>About Me</a></li></NavLink>
-        <NavLink to={'/contact'}><li><a>Contact Me</a></li></NavLink>
+        <NavLink to={'/about'}><li><a className="font-bold text-xl">About Me</a></li></NavLink>
+        <NavLink to={'/contact'}><li><a className="font-bold text-xl">Contact Me</a></li></NavLink>
     </>
     return (
-        <div className="navbar bg-base-100">
+        <div className="navbar bg-base-200   fixed z-10 bg-opacity-30 max-w-screen-xl">
             <div className="navbar-start">
                 <div className="dropdown">
                     <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -29,7 +29,7 @@ const Navber = () => {
                         {navLinks }
                     </ul>
                 </div>
-                <Link to={'/'} className="btn btn-ghost text-xl">daisyUI</Link>
+                <Link to={'/'} className=" text-xl"><img className="size-24" src="https://i.ibb.co/F3HTyH7/Blue-White-Dots-Beverages-Drinks-Logo-removebg-preview.png" alt="" /></Link>
             </div>
             <div className="navbar-center hidden lg:flex">
                 <ul className="menu menu-horizontal px-1">
