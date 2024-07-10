@@ -9,7 +9,7 @@ AOS.init()
 const Projects = () => {
     return (
         <div>
-            <div  data-aos="fade-down"
+            <div data-aos="fade-down"
                 data-aos-easing="linear"
                 data-aos-duration="1500" className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-9 mt-14">
                 <div
@@ -307,9 +307,7 @@ const Projects = () => {
                     </div>
                 </div>
             </div>
-            <div>
-
-            </div>
+            
         </div>
     );
 };

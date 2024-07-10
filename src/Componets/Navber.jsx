@@ -37,7 +37,7 @@ const Navber = () => {
                 </ul>
             </div>
             <div className="navbar-end">
-                <a className="btn">Hiring</a>
+                <a className="btn btn-outline font-bold text-xl">Hire Me</a>
             </div>
         </div>
     );
