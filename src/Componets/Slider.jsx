@@ -5,11 +5,11 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 
 const Slider = () => {
     return (
-        <div className="bg-gray-500 mt-14">
+        <div className="  mt-14">
             <div data-aos="fade-up"
                 data-aos-anchor-placement="center-center" className="lg:p-14 text-center p-2">
-                <h1 className="lg:text-5xl text-2xl lg:mt-11 text-white font-bold">Discover a variety of innovative portfolio pages!</h1>
-                <p className="mt-6 text-white text-center">With our modern page templates, one can effortlessly build a complete site. We designed the inner pages to perfection and in an organized manner, allowing you to quickly and easily customize your site to fit your needs.</p>
+                <h1 className="lg:text-5xl text-2xl lg:mt-11  font-bold text-black">Discover a variety of innovative portfolio pages!</h1>
+                <p className="mt-6  text-center text-base text-black">With our modern page templates, one can effortlessly build a complete site. We designed the inner pages to perfection and in an organized manner, allowing you to quickly and easily customize your site to fit your needs.</p>
             </div>
 
             <div className='p-6'>

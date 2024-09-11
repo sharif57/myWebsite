@@ -1,8 +1,32 @@
 
+import emailjs from '@emailjs/browser';
+import { useRef } from 'react';
 
 const Contact = () => {
+    const form = useRef();
+
+    // GmailSend
+    // service_4itp2bm
+
+    const sendEmail = (e) => {
+        e.preventDefault();
+    
+        emailjs
+            .sendForm('service_4itp2bm', 'template_vnwsmtj', form.current, 'CLcILwSYtPZKObNpP')
+            .then(
+                () => {
+                    console.log('SUCCESS!');
+                    alert('Your mail was sent successfully');
+                    form.current.reset();
+                },
+                (error) => {
+                    console.log('FAILED...', error.text);
+                }
+            );
+    };
+    
     return (
-        <div className="pt-24 p-4">
+        <div id="contact" className="pt-24 p-4">
             <h1 className="lg:text-5xl text-3xl font-bold mb-10">Get In Touch. <hr /></h1>
             <p className="text-xl mb-11 font-medium">TAKE A COFFEE & CHAT WITH ME</p>
             <div className="flex gap-4 mb-4">
@@ -24,38 +48,24 @@ const Contact = () => {
 
 
             </div>
-            <div>
-                <div className="mt-6 flex justify-around gap-8 ">
-                    <label className="form-control w-full ">
-                        <div className="label">
-                            <span className="label-text">Name</span>
-                        </div>
-                        <input type="text" placeholder="your name " className="input input-bordered w-full " />
-
+            <div className="group border-s-8 lg:pl-7 pl-2 rounded-lg  border-green-400 ">
+            <form ref={form} onSubmit={sendEmail}>
+                <div className="mt-6 flex flex-col gap-4">
+                    <label className="form-control w-full">
+                        <span className="label-text text-2xl font-semibold">Name</span>
+                        <input type="text" name="user_name" className="input input-bordered border-2 border-purple-400 w-full" required />
                     </label>
-                    <label className="form-control w-full ">
-                        <div className="label">
-                            <span className="label-text">Email</span>
-                        </div>
-                        <input type="text" placeholder="your email" className="input input-bordered w-full " />
-
+                    <label className="form-control w-full">
+                        <span className="label-text text-2xl font-semibold">Email</span>
+                        <input type="email" name="user_email" className="input input-bordered border-2 border-purple-400 w-full" required />
                     </label>
+                    <label className="form-control w-full">
+                        <span className="label-text text-2xl font-semibold">Message</span>
+                        <textarea name="message" className="input input-bordered border-2 h-44 border-purple-400 w-full" required />
+                    </label>
+                    <button type="submit" className="btn mt-6 btn-warning">Submit Now</button>
                 </div>
-                <label className="form-control w-full ">
-                    <div className="label">
-                        <span className="label-text">Subject</span>
-                    </div>
-                    <input type="text" placeholder="your subject" className="input input-bordered w-full " />
-
-                </label>
-                <label className="form-control w-full ">
-                    <div className="label">
-                        <span className="label-text">Message</span>
-                    </div>
-                    <input type="text" placeholder="write your text...." className="input input-bordered w-full " />
-
-                </label>
-                <button className="btn mt-6 btn-warning">Submit Now</button>
+            </form>
             </div>
         </div>
     );

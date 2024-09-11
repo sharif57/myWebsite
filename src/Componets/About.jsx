@@ -1,7 +1,7 @@
 
 const About = () => {
     return (
-        <div  className="p-4">
+        <div id="about" className="p-4 ">
             <div data-aos="zoom-out-down" data-aos-delay="500" className="">
                 <h1 className="text-5xl pt-24 font-bold">About Me. <hr /></h1>
                 <p className="mt-8 ">Hello! I'm Sharif Mahamud, a dedicated web developer with a passion for crafting clean and efficient code. With a background in [mention your education or relevant experience], I specialize in front-end development using HTML, CSS, and JavaScript, with proficiency in frameworks like React.js. I am also skilled in back-end development using Node.js and Express, and I have experience working with databases such as MongoDB.
@@ -12,18 +12,17 @@ const About = () => {
 
                     Let's connect and discuss how we can work together to achieve your project goals!</p>
             </div>
-            <div data-aos="fade-down" className="mt-10  ">
+            {/* <div data-aos="fade-down" className="mt-10  ">
                 <div>
                     <h1 className="text-2xl font-semibold mb-4">Name : Sharif Mahamud</h1>
                     <h1 className="text-2xl font-semibold mb-4">Nationality : Bangladeshi</h1>
                     <h1 className="text-2xl font-semibold mb-4">Phone : 01611198984</h1>
-                    {/* <h1 className="text-2xl font-semibold mb-4">Email : sharifmahamud577951@gmail.com</h1> */}
                     <h1 className="text-2xl font-semibold mb-4">Gender : Male</h1>
                     <h1 className="text-2xl font-semibold mb-4">Age : 22</h1>
                     <h1 className="text-2xl font-semibold mb-4">Marital : Single</h1>
                     <h1 className="text-2xl font-semibold mb-4">Passion : Developer</h1>
                 </div>
-            </div>
+            </div> */}
 
             <div data-aos="zoom-out-down" data-aos-delay="100">
                 <h1 className="text-5xl mt-8 font-bold mb-6">Education. <hr /></h1>

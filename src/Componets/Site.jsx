@@ -9,7 +9,7 @@ const Site = () => {
             <div>
                 <div>
                     {/* data-aos-delay="1000" data-aos="zoom-out" */}
-                    <h1 data-aos="zoom-in" data-aos-delay="1000" className="lg:text-5xl text-3xl lg:w-1/2 mx-auto text-center font-bold mt-10">CREATE A AMAZING SITE TODAY!</h1>
+                    <h1 data-aos="zoom-in" data-aos-delay="1000" className="lg:text-4xl text-3xl lg:w-1/2 mx-auto text-center font-bold mt-10">CREATE A AMAZING SITE TODAY!</h1>
                 </div>
                 {/*  data-aos-delay="1000" data-aos="zoom-out" */}
                 <div data-aos="zoom-in" data-aos-delay="1000" className="text-center lg:flex flex-col lg:justify-center  mt-10 items-center">
@@ -25,72 +25,102 @@ const Site = () => {
                 </div>
 
                 <div  >
-                    <div className="grid grid-cols-1 md:grid-cols-2 p-4 lg:grid-cols-4 mt-8 gap-5">
+                    <div className="grid grid-cols-1 md:grid-cols-2 p-4 lg:grid-cols-4 mt-12 gap-5">
 
-                        {/*  data-aos="fade-up" */}
-                        <article data-aos="zoom-in" data-aos-delay="1000" className="overflow-hidden rounded-lg border-2 border-gray-200  shadow-xl hover:shadow-2xl bg-yellow-50">
-
-
-                            <div className="p-4 sm:p-6">
-                                <a href="#">
-                                    <h3 className="text-xl  font-semibold text-gray-900">
-                                        Responsive Designs
-                                    </h3>
-                                </a>
-
-                                <p className="mt-2 lg:text-xl text-gray-500">
-                                    Experience flawless viewing on any device. Our templates adapt seamlessly to all screen sizes, ensuring your portfolio looks stunning whether on a desktop, tablet, or smartphone.
-                                </p>
+                    
+                        <div
+                            className=" bg-white shadow-[0px_0px_15px_rgba(0,0,0,0.09)] p-9 space-y-3 relative overflow-hidden"
+                        >
+                            <div className="w-24 h-24 bg-violet-500 rounded-full absolute -right-5 -top-7">
+                                <p className="absolute bottom-6 left-7 text-white text-2xl">01</p>
                             </div>
-                        </article>
-                        {/* data-aos="fade-up" */}
-                        <article data-aos="zoom-in" data-aos-delay="1000" className="overflow-hidden rounded-lg border-2 border-gray-200 bg-white shadow-xl hover:shadow-2xl bg-yellow-50">
-
-
-                            <div className="p-4 sm:p-6">
-                                <a href="#">
-                                    <h3 className="text-2xl font-medium text-gray-900">
-                                        Modern Layouts
-                                    </h3>
-                                </a>
-
-                                <p className="mt-2 lg:text-xl text-gray-500">
-                                    Stand out with sleek, contemporary designs. Our templates feature cutting-edge aesthetics that give your portfolio a polished and professional appearance.
-                                </p>
+                            <div className="fill-violet-500 w-12">
+                                <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    id="Layer_1"
+                                    data-name="Layer 1"
+                                    viewBox="0 0 24 24"
+                                >
+                                    <path
+                                        d="m24,6.928v13.072h-11.5v3h5v1H6.5v-1h5v-3H0V4.5c0-1.379,1.122-2.5,2.5-2.5h12.98c-.253.295-.54.631-.856,1H2.5c-.827,0-1.5.673-1.5,1.5v14.5h22v-10.993l1-1.079Zm-12.749,3.094C19.058.891,19.093.855,19.11.838c1.118-1.115,2.936-1.113,4.052.002,1.114,1.117,1.114,2.936,0,4.052l-8.185,8.828c-.116,1.826-1.623,3.281-3.478,3.281h-5.59l.097-.582c.043-.257,1.086-6.16,5.244-6.396Zm2.749,3.478c0-1.379-1.122-2.5-2.5-2.5-2.834,0-4.018,3.569-4.378,5h4.378c1.378,0,2.5-1.121,2.5-2.5Zm.814-1.073l2.066-2.229c-.332-1.186-1.371-2.057-2.606-2.172-.641.749-1.261,1.475-1.817,2.125,1.117.321,1.998,1.176,2.357,2.277Zm.208-5.276c1.162.313,2.125,1.134,2.617,2.229l4.803-5.18c.737-.741.737-1.925.012-2.653-.724-.725-1.908-.727-2.637,0-.069.08-2.435,2.846-4.795,5.606Z"
+                                    ></path>
+                                </svg>
                             </div>
-                        </article>
-                        {/* data-aos="fade-up" */}
-                        <article data-aos="zoom-in" data-aos-delay="1000" className="overflow-hidden rounded-lg border-2 border-gray-200 bg-white shadow-xl hover:shadow-2xl bg-yellow-50">
-
-
-                            <div className="p-4 sm:p-6">
-                                <a href="#">
-                                    <h3 className="text-2xl font-medium text-gray-900">
-                                        Regular Updates
-                                    </h3>
-                                </a>
-
-                                <p className="mt-2 lg:text-xl text-gray-500">
-                                    Stay ahead of the curve with our continuous improvements. We regularly update our templates to incorporate the latest trends and technologies, keeping your portfolio fresh and relevant.
-                                </p>
+                            <h1 className="font-bold text-xl"> Responsive Designs          </h1>
+                            <p className="text-sm text-zinc-500 leading-6">
+                                Experience flawless viewing on any device. Our templates adapt seamlessly to all screen sizes, ensuring your portfolio looks stunning whether on a desktop, tablet, or smartphone.
+                            </p>
+                        </div>
+                        <div
+                            className=" bg-white shadow-[0px_0px_15px_rgba(0,0,0,0.09)] p-9 space-y-3 relative overflow-hidden"
+                        >
+                            <div className="w-24 h-24 bg-violet-500 rounded-full absolute -right-5 -top-7">
+                                <p className="absolute bottom-6 left-7 text-white text-2xl">02</p>
                             </div>
-                        </article>
-                        {/* data-aos="fade-up" */}
-                        <article data-aos="zoom-in" data-aos-delay="1000" className="overflow-hidden rounded-lg border-2 border-gray-200  shadow-xl hover:shadow-2xl bg-yellow-50">
-
-
-                            <div className="p-4 sm:p-6">
-                                <a href="#">
-                                    <h3 className="text-2xl font-medium text-gray-900">
-                                        Easy Navigation
-                                    </h3>
-                                </a>
-
-                                <p className="mt-2 text-xl text-gray-500">
-                                    Enjoy intuitive and user-friendly interfaces. Our templates are designed for smooth and effortless navigation, allowing your visitors to explore the work with ease.
-                                </p>
+                            <div className="fill-violet-500 w-12">
+                                <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    id="Layer_1"
+                                    data-name="Layer 1"
+                                    viewBox="0 0 24 24"
+                                >
+                                    <path
+                                        d="m24,6.928v13.072h-11.5v3h5v1H6.5v-1h5v-3H0V4.5c0-1.379,1.122-2.5,2.5-2.5h12.98c-.253.295-.54.631-.856,1H2.5c-.827,0-1.5.673-1.5,1.5v14.5h22v-10.993l1-1.079Zm-12.749,3.094C19.058.891,19.093.855,19.11.838c1.118-1.115,2.936-1.113,4.052.002,1.114,1.117,1.114,2.936,0,4.052l-8.185,8.828c-.116,1.826-1.623,3.281-3.478,3.281h-5.59l.097-.582c.043-.257,1.086-6.16,5.244-6.396Zm2.749,3.478c0-1.379-1.122-2.5-2.5-2.5-2.834,0-4.018,3.569-4.378,5h4.378c1.378,0,2.5-1.121,2.5-2.5Zm.814-1.073l2.066-2.229c-.332-1.186-1.371-2.057-2.606-2.172-.641.749-1.261,1.475-1.817,2.125,1.117.321,1.998,1.176,2.357,2.277Zm.208-5.276c1.162.313,2.125,1.134,2.617,2.229l4.803-5.18c.737-.741.737-1.925.012-2.653-.724-.725-1.908-.727-2.637,0-.069.08-2.435,2.846-4.795,5.606Z"
+                                    ></path>
+                                </svg>
                             </div>
-                        </article>
+                            <h1 className="font-bold text-xl">                                         Modern Layouts                            </h1>
+                            <p className="text-sm text-zinc-500 leading-6">
+                                Stand out with sleek, contemporary designs. Our templates feature cutting-edge aesthetics that give your portfolio a polished and professional appearance.
+                            </p>
+                        </div>
+                        <div
+                            className=" bg-white shadow-[0px_0px_15px_rgba(0,0,0,0.09)] p-9 space-y-3 relative overflow-hidden"
+                        >
+                            <div className="w-24 h-24 bg-violet-500 rounded-full absolute -right-5 -top-7">
+                                <p className="absolute bottom-6 left-7 text-white text-2xl">03</p>
+                            </div>
+                            <div className="fill-violet-500 w-12">
+                                <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    id="Layer_1"
+                                    data-name="Layer 1"
+                                    viewBox="0 0 24 24"
+                                >
+                                    <path
+                                        d="m24,6.928v13.072h-11.5v3h5v1H6.5v-1h5v-3H0V4.5c0-1.379,1.122-2.5,2.5-2.5h12.98c-.253.295-.54.631-.856,1H2.5c-.827,0-1.5.673-1.5,1.5v14.5h22v-10.993l1-1.079Zm-12.749,3.094C19.058.891,19.093.855,19.11.838c1.118-1.115,2.936-1.113,4.052.002,1.114,1.117,1.114,2.936,0,4.052l-8.185,8.828c-.116,1.826-1.623,3.281-3.478,3.281h-5.59l.097-.582c.043-.257,1.086-6.16,5.244-6.396Zm2.749,3.478c0-1.379-1.122-2.5-2.5-2.5-2.834,0-4.018,3.569-4.378,5h4.378c1.378,0,2.5-1.121,2.5-2.5Zm.814-1.073l2.066-2.229c-.332-1.186-1.371-2.057-2.606-2.172-.641.749-1.261,1.475-1.817,2.125,1.117.321,1.998,1.176,2.357,2.277Zm.208-5.276c1.162.313,2.125,1.134,2.617,2.229l4.803-5.18c.737-.741.737-1.925.012-2.653-.724-.725-1.908-.727-2.637,0-.069.08-2.435,2.846-4.795,5.606Z"
+                                    ></path>
+                                </svg>
+                            </div>
+                            <h1 className="font-bold text-xl">                                         Regular Updates                            </h1>
+                            <p className="text-sm text-zinc-500 leading-6">
+                                Stay ahead of the curve with our continuous improvements. We regularly update our templates to incorporate the latest trends and technologies, keeping your portfolio fresh and relevant.
+                            </p>
+                        </div>
+                        <div
+                            className=" bg-white shadow-[0px_0px_15px_rgba(0,0,0,0.09)] p-9 space-y-3 relative overflow-hidden"
+                        >
+                            <div className="w-24 h-24 bg-violet-500 rounded-full absolute -right-5 -top-7">
+                                <p className="absolute bottom-6 left-7 text-white text-2xl">04</p>
+                            </div>
+                            <div className="fill-violet-500 w-12">
+                                <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    id="Layer_1"
+                                    data-name="Layer 1"
+                                    viewBox="0 0 24 24"
+                                >
+                                    <path
+                                        d="m24,6.928v13.072h-11.5v3h5v1H6.5v-1h5v-3H0V4.5c0-1.379,1.122-2.5,2.5-2.5h12.98c-.253.295-.54.631-.856,1H2.5c-.827,0-1.5.673-1.5,1.5v14.5h22v-10.993l1-1.079Zm-12.749,3.094C19.058.891,19.093.855,19.11.838c1.118-1.115,2.936-1.113,4.052.002,1.114,1.117,1.114,2.936,0,4.052l-8.185,8.828c-.116,1.826-1.623,3.281-3.478,3.281h-5.59l.097-.582c.043-.257,1.086-6.16,5.244-6.396Zm2.749,3.478c0-1.379-1.122-2.5-2.5-2.5-2.834,0-4.018,3.569-4.378,5h4.378c1.378,0,2.5-1.121,2.5-2.5Zm.814-1.073l2.066-2.229c-.332-1.186-1.371-2.057-2.606-2.172-.641.749-1.261,1.475-1.817,2.125,1.117.321,1.998,1.176,2.357,2.277Zm.208-5.276c1.162.313,2.125,1.134,2.617,2.229l4.803-5.18c.737-.741.737-1.925.012-2.653-.724-.725-1.908-.727-2.637,0-.069.08-2.435,2.846-4.795,5.606Z"
+                                    ></path>
+                                </svg>
+                            </div>
+                            <h1 className="font-bold text-xl">                                        Easy Navigation                            </h1>
+                            <p className="text-sm text-zinc-500 leading-6">
+                            Enjoy intuitive and user-friendly interfaces. Our templates are designed for smooth and effortless navigation, allowing your visitors to explore the work with ease.
+                            </p>
+                        </div>
+
                     </div>
                 </div>
             </div>

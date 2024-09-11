@@ -1,9 +1,28 @@
 import { Link, NavLink } from "react-router-dom";
 
 const Navber = () => {
+    const handleDownload = () => {
+        const fileUrl = 'https://drive.google.com/file/d/1JxZ_nXCLrQIy-Lj9BaqC0EQkWuErv-0f/view';
+        window.open(fileUrl, '_blank'); // Opens the link in a new tab
+    };
+    const handleScroll = (e) => {
+        e.preventDefault();
+        const aboutSection = document.getElementById('about');
+        if (aboutSection) {
+            aboutSection.scrollIntoView({ behavior: 'smooth' });
+        }
+    };
+    const handleContact = (e) => {
+        e.preventDefault();
+        const aboutSection = document.getElementById('contact');
+        if (aboutSection) {
+            aboutSection.scrollIntoView({ behavior: 'smooth' });
+        }
+    };
     const navLinks = <>
-        <NavLink to={'/about'}><li><a className="font-bold text-xl">About Me</a></li></NavLink>
-        <NavLink to={'/contact'}><li><a className="font-bold text-xl">Contact Me</a></li></NavLink>
+        <NavLink to={'/'}><li><a className="font-semibold text-xl">Home</a></li></NavLink>
+        <NavLink onClick={handleScroll}  ><li><a href="#about" className="font-semibold text-xl">About Me</a></li></NavLink>
+        <NavLink onClick={handleContact}><li><a href="#contact" className="font-semibold text-xl">Contact Me</a></li></NavLink>
     </>
     return (
         <div className="navbar bg-base-200   fixed z-10 bg-opacity-30 max-w-screen-xl">
@@ -26,7 +45,7 @@ const Navber = () => {
                     <ul
                         tabIndex={0}
                         className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
-                        {navLinks }
+                        {navLinks}
                     </ul>
                 </div>
                 <Link to={'/'} className=" text-xl"><img className="size-24" src="https://i.ibb.co/F3HTyH7/Blue-White-Dots-Beverages-Drinks-Logo-removebg-preview.png" alt="" /></Link>
@@ -37,7 +56,11 @@ const Navber = () => {
                 </ul>
             </div>
             <div className="navbar-end">
-                <a className="btn btn-outline font-bold text-xl">Hire Me</a>
+                <button onClick={handleDownload} className="cursor-pointer group relative flex gap-1.5 px-8 py-4 bg-black bg-opacity-80 text-[#f1f1f1] rounded-3xl hover:bg-opacity-70 transition font-semibold shadow-md">
+                   
+                    Hire Me
+                   
+                </button>
             </div>
         </div>
     );
